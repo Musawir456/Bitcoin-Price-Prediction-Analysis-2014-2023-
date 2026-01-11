@@ -34,3 +34,17 @@
 ```python
 Pandas -  Scikit-learn -  Matplotlib -  Seaborn -  Streamlit
 Random Forest -  RSI -  Moving Averages -  Time Series
+
+
+bitcoin-price-prediction/
+│
+├── README.md                    # Project documentation
+├── notebook/
+│   └── Bitcoin_Analysis.ipynb   # Complete Kaggle notebook
+├── data/
+│   └── bitcoin-1.csv           # 3.3K rows OHLCV data
+├── models/
+│   └── rf_model.pkl            # Trained Random Forest
+├── app.py                      # Streamlit dashboard
+├── requirements.txt            # Dependencies
+└── screenshots/                # Results images
